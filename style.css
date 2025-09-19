@@ -1,0 +1,413 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.header{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/258d0f77-2241-4282-b613-8354a7675d1a/web/PK-en-20250721-TRIFECTA-perspective_d6a54b31-953a-4373-929a-9de50f6c13fe_large.jpg);
+    width: 98.9vw;
+    height: 90vh;
+    position: relative;
+}
+.header-box{
+    width: 98.9vw;
+    height: 90vh;
+    background-color: black;
+    opacity: 0.85;
+    position: absolute;
+    top: 0px;
+    /* border:2px solid red; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 98.9vw;
+    /* border:2px solid red; */
+}
+.navbar .logo img{
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    /* border:2px solid red; */
+}
+.navbar .sign-in-btn button{
+    background-color: #E50914;
+    padding: 10px;
+    padding-left: 18px;
+    position: relative;
+    z-index: 10;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    padding-right: 18px;
+    font-weight: 600;
+    border:2px solid red;
+}
+.navbar .sign-in-btn{
+    margin-left: 450px;
+    /* border:2px solid red; */
+}
+
+.header-section{
+    position:relative;
+    z-index: 10;
+    /* border:2px solid red; */
+}
+.header-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    /* border:2px solid red; */
+}
+.header-span1{
+        color: white;
+    font-size: 56px;
+    font-weight: 900;
+    /* border:2px solid red; */
+} 
+.header-span2{
+        color: white;
+    font-size: 56px;
+    font-weight: 900;
+    /* border:2px solid red; */
+}
+.header-span3{
+        color: white;
+    font-size: 20px;
+    font-weight: 500;
+    /* border:2px solid red; */
+}
+.header-span4{
+        color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 90px;
+    padding-top: 30px;
+    /* border:2px solid red; */
+}
+.header-span5{
+    padding-top: 20px;
+    /* border:2px solid red; */
+}
+.header-span5 input{
+    padding: 25px;
+    background-color: transparent;
+
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    padding-right: 290px;
+    border-radius: 9px;
+    /* border:2px solid red; */
+    /* border-style: none; */
+}
+.header-span5 button{
+    padding: 17px 26px;
+    background-color: #E50914;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    font-size: 24px;
+    top: 3px;
+    border-radius: 9px;
+    border-style: none;
+    margin-left: 10px;
+    border:2px solid red;
+}
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////// */
+.main-section{
+    background-color: black;
+    border-top: 2px solid rgb(61, 24, 24);
+    border-radius:120px 120px 0px 0px;
+    box-shadow: 0 -4px 6px -4px rgba(255, 9, 9, 0.2);
+    /* border-color: aqua; */
+    position: relative;
+    z-index: 12;
+    /* border:2px solid red; */
+}
+.main-heading1 h2{
+    /* border: 2px solid green; */
+    display: block;
+    width: 75vw;
+    margin: auto;
+    padding-top: 30px;
+    color: white;
+    /* padding-bottom: 20px; */
+    /* border:2px solid red; */
+}
+.movies-box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    /* width: 70vw; */
+    /* margin: auto; */
+    /* border:2px solid red; */
+}
+.movies-box img{
+    width: 160px;
+    border-radius: 6px;
+    /* position: absolute; */
+    /* border:2px solid red; */
+}
+
+
+
+
+
+.main-section2 h2{
+    color: white;
+    /* display: block; */
+    width: 75vw;
+    /* text-align: left; */
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    /* border:2px solid red; */
+}
+.movies-box2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas: "area1 area2 area3 area4";
+    gap: 15px;
+    /* gap: 50px; */
+    color: white;
+    width: 73vw;
+    height: 55vh;
+    margin: auto;
+    /* border: 2px solid red; */
+    /* border:2px solid red; */
+}
+.movies-box2 .box{
+    grid-area: "area1";
+    background-image: url("Assets/Images/neobackground.jpeg");
+    filter: brightness(1);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    /* border:2px solid red; */
+}
+.box .this{
+    position: relative;
+    top: -11px;
+    /* border:2px solid red; */
+}
+.heading .span1{
+    display: block;
+    text-align: left ;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: -75px;
+    /* height: 100px; */
+    /* border:2px solid red; */
+}
+.box .para{
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* border:2px solid red; */
+}
+.box .pic img{
+    width: 79px;
+    margin-bottom: -120px;
+    margin-left: 90px;
+    /* border:2px solid red; */
+}
+
+
+
+
+
+.section3 .heading3{
+    margin-top:45px;
+    /* margin-bottom: 2px; */
+    /* border:2px solid red; */
+}
+.section3 .span1{
+    display: block;
+    /* padding-right: 100px; */
+    color: white;
+    /* background-color: #E50914; */
+    float:left;
+    font-size: 23px;
+    font-weight: 400;
+    /* margin-right: 100px; */
+    /* border:2px solid red; */
+}
+.section3-box{
+    display:flex;
+    /* justify-content:space-around; */
+    /* align-items:center; */
+    align-items: center;
+    width:75vw;
+    margin: auto;
+    flex-direction: column;
+    /* border:2px solid red; */
+}
+.section3 img{
+    display: block;
+    width: 30px;
+    filter: invert(1);
+    /* float:right; */
+    /* border:2px solid red; */
+}
+.question1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 56.9vw;
+    /* border:2px solid red; */
+}
+.question2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48.79vw;
+    /* border:2px solid red; */
+}
+.question3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 54.5vw;
+    /* border:2px solid red; */
+}
+.question4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 56vw;
+    /* border:2px solid red; */
+}
+.question5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 49.1vw;
+    /* border:2px solid red; */
+}
+.question6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 52.2vw;
+    /* border:2px solid red; */
+}
+.question{
+    background-color: rgb(47, 54, 47);
+    margin-top:10px;
+    padding:20px;
+    /* border:2px solid red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+.main-section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 97vw;
+    margin: auto;
+    gap: 10px;
+    padding:60px 0px;
+    /* border: 2px solid green; */
+    /* border:2px solid red; */
+}
+.section4 .span1{
+    color:white;
+    /* border:2px solid red; */
+}
+.main-section4 input{
+    padding: 17px;
+    background-color: transparent;
+
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    padding-right: 290px;
+    border-radius: 9px;
+    /* border-style: none; */
+    /* border:2px solid red; */
+}
+.main-section4 button{
+    padding: 12px 26px;
+    background-color: #E50914;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    font-size: 24px;
+    top: 3px;
+    border-radius: 9px;
+    border-style: none;
+    margin-left: 10px;
+    /* border:2px solid red; */
+}
+
+
+
+
+
+footer span{
+    color: white;
+    /* border:2px solid red; */
+    margin-left: 199px;
+    font-size: 21px;
+    font-weight: 500;
+    /* font-style: oblique; */
+}
+.footer-grid{
+    display: grid;
+    grid-template-areas: "area1 area2 area3 area4";
+    width: 75vw;
+    margin: auto;
+    padding: 50px 0px;
+}
+.list1{
+    grid-area: area1;
+}
+.list2{
+    grid-area: area2;
+}
+.list3{
+    grid-area: area3;
+}
+.list4{
+    grid-area: area4;
+}
+footer a{
+       font-size: 21px;
+    font-weight: 300;
+    color: white;
+}
